@@ -370,7 +370,7 @@ a:hover {
   position: relative;
   width: 200px;
   height: 200px;
-  margin: 0 auto var(--spacing-xl);
+  margin: var(--spacing-lg) auto var(--spacing-xl);
 }
 
 .profile-img {
