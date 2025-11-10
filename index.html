@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beha Eddine Fatnassi - DevOps Engineer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="DevOps Engineer & Software Engineering student passionate about automation, cloud technologies, and CI/CD. AWS, Kubernetes, Docker expert.">
+    <meta name="keywords" content="DevOps, AWS, Kubernetes, Docker, CI/CD, Software Engineer, Terraform, Ansible">
+    <meta name="author" content="Beha Eddine Fatnassi">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Beha Eddine Fatnassi - DevOps Engineer">
+    <meta property="og:description" content="DevOps Engineer & Software Engineering student passionate about automation, cloud technologies, and CI/CD.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://behaeddine-fatnassi.github.io">
+    <meta property="og:image" content="./assets/profile.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Beha Eddine Fatnassi - DevOps Engineer">
+    <meta name="twitter:description" content="DevOps Engineer & Software Engineering student passionate about automation, cloud technologies, and CI/CD.">
+    <meta name="twitter:image" content="./assets/profile.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>BEF</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="hero-image">
+                    <img src="./assets/profile.svg" alt="Beha Eddine Fatnassi" class="profile-img">
+                    <div class="image-glow"></div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Beha Eddine Fatnassi</span>
+                </h1>
+                <p class="hero-subtitle">
+                    DevOps Engineer | Software Engineering & Information Systems
+                </p>
+                <div class="hero-buttons">
+                    <a href="./assets/cv.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitLab">
+                        <i class="fab fa-gitlab"></i>
+                    </a>
+                    <a href="mailto:contact@behaeddine.dev" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                <p class="about-text">
+                    Software Engineering student passionate about automation, cloud technologies, and CI/CD. 
+                    Experienced in deploying scalable systems using Kubernetes, Terraform, and AWS. 
+                    Certified and continuously learning in DevOps and AI.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3 class="stat-number">50+</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">6+</h3>
+                        <p class="stat-label">Certifications</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">3+</h3>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <i class="fas fa-cloud"></i>
+                        DevOps Tools
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Podman</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">GitLab CI/CD</span>
+                        <span class="skill-tag">Ansible</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Helm</span>
+                        <span class="skill-tag">SonarQube</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">ArgoCD</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-database"></i>
+                        Databases
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Frameworks
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">NestJS</span>
+                        <span class="skill-tag">Symfony</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Ionic</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="category-title">
+                        <i class="fas fa-users"></i>
+                        Soft Skills
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">DevSecOps Intern</h3>
+                            <span class="company">Orange Tunisia</span>
+                            <span class="duration">Jul–Aug 2025</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>Built automated AWS infrastructure with Terraform and Ansible</li>
+                            <li>Deployed containerized JWT app (Angular + Spring Boot) on Kubernetes with ArgoCD</li>
+                            <li>Integrated monitoring & security tools: Grafana, Prometheus, SonarQube, Trivy</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Part-time Instructor (CKAD & CKA)</h3>
+                            <span class="company">TEK-UP</span>
+                            <span class="duration">Present</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>Teaching Kubernetes and containerization concepts</li>
+                            <li>Preparing students for CKAD and CKA certifications</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Full Stack Developer</h3>
+                            <span class="company">Arab Soft</span>
+                            <span class="duration">Jan–May 2023</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>Built mailing web app (Angular, Spring Boot, MySQL, JWT)</li>
+                            <li>Implemented secure authentication and email management features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-header">
+                        <h3 class="project-title">Fitness & Sports Connect</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Web & mobile platform connecting users to gyms and coaches with AI recommendations
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">CI/CD</span>
+                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">AI</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <h3 class="project-title">Inventory Management App</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Modern inventory management system with AI-powered features
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">NestJS</span>
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Swagger</span>
+                        <span class="tech-tag">Gemini API</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-header">
+                        <h3 class="project-title">CI/CD Automation for Symfony</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Complete CI/CD pipeline implementation with quality gates and deployment automation
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">GitLab CI/CD</span>
+                        <span class="tech-tag">SonarQube</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">Symfony</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="certifications-grid">
+                <a href="https://www.credly.com/badges/a0433dad-6789-449e-8840-e13057446355" 
+                   class="cert-card" 
+                   data-aos="zoom-in" 
+                   data-aos-delay="100"
+                   target="_blank"
+                   rel="noopener">
+                    <div class="cert-icon">
+                        <i class="fab fa-redhat"></i>
+                    </div>
+                    <h3 class="cert-title">RHCSC</h3>
+                    <p class="cert-org">Red Hat</p>
+                </a>
+                
+                <a href="https://www.credly.com/badges/a0f6fe31-6291-472b-b355-48cbfbadfb58" 
+                   class="cert-card" 
+                   data-aos="zoom-in" 
+                   data-aos-delay="150"
+                   target="_blank"
+                   rel="noopener">
+                    <div class="cert-icon">
+                        <i class="fab fa-redhat"></i>
+                    </div>
+                    <h3 class="cert-title">RHCE</h3>
+                    <p class="cert-org">Red Hat</p>
+                </a>
+                
+                <a href="https://www.credly.com/badges/8992a669-a1fc-4db6-8ecb-78d9aba65d7f" 
+                   class="cert-card" 
+                   data-aos="zoom-in" 
+                   data-aos-delay="200"
+                   target="_blank"
+                   rel="noopener">
+                    <div class="cert-icon">
+                        <i class="fas fa-dharmachakra"></i>
+                    </div>
+                    <h3 class="cert-title">CKAD</h3>
+                    <p class="cert-org">CNCF</p>
+                </a>
+                
+                <a href="https://www.credly.com/badges/bb14b109-1637-4299-bd22-a621c1300c3b" 
+                   class="cert-card" 
+                   data-aos="zoom-in" 
+                   data-aos-delay="250"
+                   target="_blank"
+                   rel="noopener">
+                    <div class="cert-icon">
+                        <i class="fas fa-dharmachakra"></i>
+                    </div>
+                    <h3 class="cert-title">CKA</h3>
+                    <p class="cert-org">CNCF</p>
+                </a>
+                
+                <a href="https://www.credly.com/badges/b0a0e270-3359-4487-8e30-d6b893e4132b" 
+                   class="cert-card" 
+                   data-aos="zoom-in" 
+                   data-aos-delay="300"
+                   target="_blank"
+                   rel="noopener">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3 class="cert-title">PCAP</h3>
+                    <p class="cert-org">Python Institute</p>
+                </a>
+                
+                <a href="https://www.credly.com/badges/d518f3b0-423e-4ac3-93b6-ad8bed7a16ae" 
+                   class="cert-card" 
+                   data-aos="zoom-in" 
+                   data-aos-delay="350"
+                   target="_blank"
+                   rel="noopener">
+                    <div class="cert-icon">
+                        <i class="fab fa-redhat"></i>
+                    </div>
+                    <h3 class="cert-title">RHCSA</h3>
+                    <p class="cert-org">Red Hat</p>
+                </a>
+                
+                <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=1044372" 
+                   class="cert-card" 
+                   data-aos="zoom-in" 
+                   data-aos-delay="400"
+                   target="_blank"
+                   rel="noopener">
+                    <div class="cert-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3 class="cert-title">Scrum SFC</h3>
+                    <p class="cert-org">SCRUMstudy</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Education & More</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="education-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        Education
+                    </h3>
+                    <div class="education-items">
+                        <div class="education-item">
+                            <h4>Software Engineering & Information Systems</h4>
+                            <p class="institution">TEK-UP University</p>
+                            <span class="duration">2023–Present</span>
+                        </div>
+                        <div class="education-item">
+                            <h4>Applied Mathematics and Computer Science</h4>
+                            <p class="institution">Higher Institute, Kairouan</p>
+                            <span class="duration">2020–2023</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-heart"></i>
+                        Organizations & Volunteering
+                    </h3>
+                    <div class="education-items">
+                        <div class="education-item">
+                            <h4>Digital Congress 2025</h4>
+                            <p class="institution">TEK-UP Hammamet</p>
+                            <span class="duration">Participant</span>
+                        </div>
+                        <div class="education-item">
+                            <h4>Tunisian Red Crescent</h4>
+                            <p class="institution">Ras Jbal</p>
+                            <span class="duration">Since 2018</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-language"></i>
+                        Languages
+                    </h3>
+                    <div class="languages">
+                        <div class="language-item">
+                            <span class="flag">🇬🇧</span>
+                            <span class="language">English</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="flag">🇫🇷</span>
+                            <span class="language">French</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="flag">🇹🇳</span>
+                            <span class="language">Arabic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">
+                    Ready to collaborate on your next DevOps project? Let's connect!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>contact@behaeddine.dev</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+216 XX XXX XXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Tunisia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left" data-aos-delay="200" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Beha Eddine Fatnassi</h3>
+                    <p>DevOps Engineer passionate about automation and cloud technologies</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitLab">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <a href="mailto:contact@behaeddine.dev" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Beha Eddine Fatnassi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
